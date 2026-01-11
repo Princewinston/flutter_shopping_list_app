@@ -7,7 +7,7 @@
 A simple and practical **shopping list mobile application** built using **Flutter** and **Firebase**.  
 This app allows users to add and view shopping items while learning
 **forms, validation, asynchronous programming, HTTP methods, Firebase integration,
-loading states, and `FutureBuilder`**.
+loading states, and asynchronous data handling**.
 
 ---
 
@@ -18,7 +18,7 @@ loading states, and `FutureBuilder`**.
 - ⏳ Loading screen using `CircularProgressIndicator`
 - 🌐 Backend connection using HTTP methods
 - 🔥 Firebase Realtime Database used as a backend (for learning and practice)
-- 🔄 Fetch and display data using `FutureBuilder`
+- 🔄 Fetch and display data asynchronously from Firebase
 - ❌ Basic error handling
 - 🎨 Clean and simple Material UI
 
@@ -32,7 +32,7 @@ By building this project, the following concepts were learned and implemented:
 - Form validation using validators
 - Asynchronous programming with `Future` and `async/await`
 - Handling loading and error states
-- Using `FutureBuilder` for async UI rendering
+- Managing asynchronous data and UI updates
 - HTTP methods (`GET`, `POST`)
 - Firebase backend integration
 - Connecting frontend Flutter app to backend services
@@ -79,7 +79,7 @@ flutter run
 
 - Firebase is used as a backend to store shopping list items
 - Data is fetched asynchronously using HTTP requests
-- UI updates are handled using `FutureBuilder`
+- UI updates are handled through asynchronous state updates
 - Loading and error states are managed gracefully
 
 ⚠️ Firebase configuration files are not included for security reasons.
